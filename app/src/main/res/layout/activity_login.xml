@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deyvi.juanfutbol.LoginActivity">
+
+    <ImageView
+        android:src="@drawable/juanlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp" />
+
+    <EditText
+        android:layout_marginTop="@dimen/dimenLogeo"
+        android:inputType="text"
+        android:hint="@string/email"
+        android:id="@+id/edtEmail"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="@dimen/dimenLogeo"
+        android:id="@+id/edtPasword"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:layout_below="@id/edtEmail"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_below="@id/edtPasword"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:layout_margin="@dimen/dimenLogeo"/>
+
+    <TextView
+        android:id="@+id/tvRegistro"
+        android:text="@string/noregistrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnEntrar"
+        android:textAlignment="center"/>
+
+
+
+</RelativeLayout>

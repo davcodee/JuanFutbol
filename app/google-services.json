@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "405383948954",
+    "firebase_url": "https://juanfutbol-6a983.firebaseio.com",
+    "project_id": "juanfutbol-6a983",
+    "storage_bucket": "juanfutbol-6a983.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405383948954:android:1ff7e4eedd7679c8",
+        "android_client_info": {
+          "package_name": "com.example.deyvi.juanfutbol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405383948954-cvnts8dt8tqqub5p6uh33r4rl6gl1tjo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgt3YTJUeTVSFMG1UwnmJ-mzBWvsdZth4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
